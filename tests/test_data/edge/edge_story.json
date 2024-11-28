@@ -1,0 +1,59 @@
+{
+    "start_scene": "",
+    "scenes": {
+        "": {
+            "text": "This scene has no name.",
+            "choices": [
+                {
+                    "option": "Go to the unnamed scene",
+                    "next_scene": ""
+                }
+            ]
+        },
+        "looping_scene": {
+            "text": "This scene loops back to itself indefinitely.",
+            "choices": [
+                {
+                    "option": "Repeat",
+                    "next_scene": "looping_scene"
+                }
+            ]
+        },
+        "large_scene": {
+            "text": "A scene with an enormous number of choices.",
+            "choices": [
+                {
+                    "option": "Choice 1",
+                    "next_scene": "end_scene"
+                },
+                {
+                    "option": "Choice 2",
+                    "next_scene": "end_scene"
+                },
+                {
+                    "option": "Choice 3",
+                    "next_scene": "end_scene"
+                },
+                {
+                    "option": "Choice 1000",
+                    "next_scene": "end_scene"
+                }
+            ]
+        },
+        "end_scene": {
+            "text": "The story ends here."
+        },
+        "missing_text_scene": {
+            "choices": [
+                {
+                    "option": "Go to the ending",
+                    "next_scene": "end_scene"
+                }
+            ]
+        },
+        "disconnected_scene": {
+            "text": "This scene is never referenced by any choice."
+        }
+    }
+}
+

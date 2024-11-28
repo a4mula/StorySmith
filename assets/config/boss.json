@@ -1,0 +1,62 @@
+{
+    "bosses": [
+        {
+            "name": "Forest Guardian",
+            "description": "A massive tree-like creature protecting the forest.",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 100,
+                    "abilities": [
+                        {
+                            "name": "Vine Whip",
+                            "damage": 15,
+                            "cooldown": 3,
+                            "effect": "stun"
+                        },
+                        {
+                            "name": "Seed Burst",
+                            "damage": 20,
+                            "cooldown": 5,
+                            "effect": "poison"
+                        }
+                    ]
+                },
+                {
+                    "name": "Left Arm",
+                    "health": 50,
+                    "abilities": [
+                        {
+                            "name": "Branch Slam",
+                            "damage": 10,
+                            "cooldown": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Right Arm",
+                    "health": 50,
+                    "abilities": [
+                        {
+                            "name": "Thorn Shot",
+                            "damage": 12,
+                            "cooldown": 3
+                        }
+                    ]
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Forest Regeneration",
+                    "heal": 20,
+                    "cooldown": 6
+                }
+            ],
+            "effects": {
+                "on_death": "spawns_mini_bosses",
+                "environmental_change": "forest_on_fire"
+            }
+        }
+    ]
+}
+

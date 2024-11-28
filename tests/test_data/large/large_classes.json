@@ -1,0 +1,130 @@
+{
+    "classes": [
+        {
+            "name": "Warrior",
+            "description": "A strong melee fighter with high health and defense.",
+            "attributes": {
+                "health": 150,
+                "mana": 50,
+                "strength": 20,
+                "agility": 10,
+                "intelligence": 5
+            },
+            "abilities": [
+                {
+                    "name": "Shield Bash",
+                    "damage": 15,
+                    "mana_cost": 10,
+                    "effect": "stun"
+                },
+                {
+                    "name": "Power Strike",
+                    "damage": 25,
+                    "mana_cost": 15,
+                    "effect": null
+                }
+            ]
+        },
+        {
+            "name": "Mage",
+            "description": "A spellcaster with high mana and powerful abilities.",
+            "attributes": {
+                "health": 80,
+                "mana": 200,
+                "strength": 5,
+                "agility": 10,
+                "intelligence": 25
+            },
+            "abilities": [
+                {
+                    "name": "Fireball",
+                    "damage": 30,
+                    "mana_cost": 20,
+                    "effect": "burn"
+                },
+                {
+                    "name": "Ice Barrier",
+                    "damage": 0,
+                    "mana_cost": 25,
+                    "effect": "shield"
+                }
+            ]
+        },
+        {
+            "name": "Rogue",
+            "description": "A nimble fighter with high agility and critical damage.",
+            "attributes": {
+                "health": 100,
+                "mana": 50,
+                "strength": 15,
+                "agility": 25,
+                "intelligence": 10
+            },
+            "abilities": [
+                {
+                    "name": "Backstab",
+                    "damage": 40,
+                    "mana_cost": 15,
+                    "effect": "bleed"
+                },
+                {
+                    "name": "Shadow Step",
+                    "damage": 0,
+                    "mana_cost": 10,
+                    "effect": "invisible"
+                }
+            ]
+        },
+        {
+            "name": "Paladin",
+            "description": "A holy warrior with balanced stats and healing abilities.",
+            "attributes": {
+                "health": 120,
+                "mana": 100,
+                "strength": 15,
+                "agility": 10,
+                "intelligence": 15
+            },
+            "abilities": [
+                {
+                    "name": "Holy Smite",
+                    "damage": 20,
+                    "mana_cost": 20,
+                    "effect": "burn"
+                },
+                {
+                    "name": "Divine Heal",
+                    "damage": 0,
+                    "mana_cost": 25,
+                    "effect": "heal"
+                }
+            ]
+        },
+        {
+            "name": "Berserker",
+            "description": "A fierce warrior with high strength and a risk-taking fighting style.",
+            "attributes": {
+                "health": 130,
+                "mana": 30,
+                "strength": 30,
+                "agility": 15,
+                "intelligence": 5
+            },
+            "abilities": [
+                {
+                    "name": "Rage",
+                    "damage": 50,
+                    "mana_cost": 20,
+                    "effect": "self_damage"
+                },
+                {
+                    "name": "War Cry",
+                    "damage": 0,
+                    "mana_cost": 15,
+                    "effect": "buff"
+                }
+            ]
+        }
+    ]
+}
+

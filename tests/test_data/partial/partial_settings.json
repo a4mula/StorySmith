@@ -1,0 +1,19 @@
+{
+    "resolution": {
+        "width": 1920
+    },
+    "audio": {
+        "volume": 50
+    },
+    "gameplay": {
+        "difficulty": "normal"
+    },
+    "controls": {
+        "move_up": "W",
+        "move_down": "S"
+    },
+    "graphics": {
+        "fullscreen": true
+    }
+}
+

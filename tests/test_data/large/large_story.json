@@ -1,0 +1,136 @@
+{
+    "start_scene": "prologue",
+    "scenes": {
+        "prologue": {
+            "text": "You wake up in a dark forest, disoriented and alone.",
+            "choices": [
+                {
+                    "option": "Explore the forest",
+                    "next_scene": "forest_path"
+                },
+                {
+                    "option": "Look for a way out",
+                    "next_scene": "village_outskirts"
+                }
+            ]
+        },
+        "forest_path": {
+            "text": "The forest grows darker as you venture deeper. You hear a distant howl.",
+            "choices": [
+                {
+                    "option": "Investigate the sound",
+                    "next_scene": "wolf_encounter"
+                },
+                {
+                    "option": "Run back to the starting point",
+                    "next_scene": "prologue"
+                }
+            ]
+        },
+        "village_outskirts": {
+            "text": "You see the lights of a small village in the distance.",
+            "choices": [
+                {
+                    "option": "Enter the village",
+                    "next_scene": "village_square"
+                },
+                {
+                    "option": "Stay hidden and observe",
+                    "next_scene": "hidden_path"
+                }
+            ]
+        },
+        "wolf_encounter": {
+            "text": "A massive wolf blocks your path. Its eyes glow with an unnatural light.",
+            "choices": [
+                {
+                    "option": "Fight the wolf",
+                    "next_scene": "wolf_fight"
+                },
+                {
+                    "option": "Flee deeper into the forest",
+                    "next_scene": "dark_clearing"
+                }
+            ]
+        },
+        "village_square": {
+            "text": "The villagers seem wary of your presence. A guard approaches.",
+            "choices": [
+                {
+                    "option": "Talk to the guard",
+                    "next_scene": "guard_dialogue"
+                },
+                {
+                    "option": "Blend into the crowd",
+                    "next_scene": "marketplace"
+                }
+            ]
+        },
+        "dark_clearing": {
+            "text": "You stumble into a clearing illuminated by eerie blue light. A strange artifact lies in the center.",
+            "choices": [
+                {
+                    "option": "Examine the artifact",
+                    "next_scene": "artifact_pickup"
+                },
+                {
+                    "option": "Leave the clearing",
+                    "next_scene": "forest_path"
+                }
+            ]
+        },
+        "hidden_path": {
+            "text": "You find a hidden path leading around the village to an abandoned barn.",
+            "choices": [
+                {
+                    "option": "Search the barn",
+                    "next_scene": "barn_search"
+                },
+                {
+                    "option": "Continue past the barn",
+                    "next_scene": "road_to_city"
+                }
+            ]
+        },
+        "barn_search": {
+            "text": "You find an old weapon hidden under the hay. It might be useful.",
+            "choices": [
+                {
+                    "option": "Take the weapon and return to the forest",
+                    "next_scene": "forest_path"
+                },
+                {
+                    "option": "Take the weapon and head towards the city",
+                    "next_scene": "road_to_city"
+                }
+            ]
+        },
+        "road_to_city": {
+            "text": "The road to the city stretches ahead. The air is tense with danger.",
+            "choices": [
+                {
+                    "option": "Continue towards the city",
+                    "next_scene": "city_gates"
+                },
+                {
+                    "option": "Turn back to the village",
+                    "next_scene": "village_square"
+                }
+            ]
+        },
+        "city_gates": {
+            "text": "Massive gates tower above you. Guards stand watch, their expressions grim.",
+            "choices": [
+                {
+                    "option": "Approach the gates",
+                    "next_scene": "gates_confrontation"
+                },
+                {
+                    "option": "Look for another way in",
+                    "next_scene": "hidden_tunnel"
+                }
+            ]
+        }
+    }
+}
+

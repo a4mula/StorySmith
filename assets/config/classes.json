@@ -1,0 +1,79 @@
+{
+    "classes": [
+        {
+            "name": "Warrior",
+            "description": "A strong melee fighter with high health and defense.",
+            "attributes": {
+                "health": 150,
+                "mana": 50,
+                "strength": 20,
+                "agility": 10,
+                "intelligence": 5
+            },
+            "abilities": [
+                {
+                    "name": "Shield Bash",
+                    "damage": 15,
+                    "mana_cost": 10,
+                    "effect": "stun",
+                    "cooldown": 3
+                },
+                {
+                    "name": "Power Strike",
+                    "damage": 25,
+                    "mana_cost": 15,
+                    "effect": null,
+                    "cooldown": 2
+                }
+            ],
+            "passive_traits": [
+                {
+                    "name": "Iron Will",
+                    "effect": "Reduce incoming damage by 10%."
+                }
+            ],
+            "visuals": {
+                "portrait": "assets/graphics/warrior_portrait.png",
+                "animation": "assets/animations/warrior_idle.gif"
+            }
+        },
+        {
+            "name": "Mage",
+            "description": "A spellcaster with high mana and powerful abilities.",
+            "attributes": {
+                "health": 80,
+                "mana": 200,
+                "strength": 5,
+                "agility": 10,
+                "intelligence": 25
+            },
+            "abilities": [
+                {
+                    "name": "Fireball",
+                    "damage": 30,
+                    "mana_cost": 20,
+                    "effect": "burn",
+                    "cooldown": 3
+                },
+                {
+                    "name": "Ice Barrier",
+                    "damage": 0,
+                    "mana_cost": 25,
+                    "effect": "shield",
+                    "cooldown": 5
+                }
+            ],
+            "passive_traits": [
+                {
+                    "name": "Arcane Mastery",
+                    "effect": "Increase spell damage by 15%."
+                }
+            ],
+            "visuals": {
+                "portrait": "assets/graphics/mage_portrait.png",
+                "animation": "assets/animations/mage_cast.gif"
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,32 @@
+{
+    "resolution": {
+        "width": 1920,
+        "height": 1080
+    },
+    "audio": {
+        "volume": 100,
+        "mute": false
+    },
+    "gameplay": {
+        "difficulty": "normal",
+        "autosave": true
+    },
+    "controls": {
+        "move_up": "W",
+        "move_down": "S",
+        "move_left": "A",
+        "move_right": "D",
+        "action": "Space",
+        "pause": "Escape"
+    },
+    "graphics": {
+        "v_sync": true,
+        "quality": "high",
+        "fullscreen": true
+    },
+    "debug": {
+        "enabled": false,
+        "log_level": "info"
+    }
+}
+

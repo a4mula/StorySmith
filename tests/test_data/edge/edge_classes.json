@@ -1,0 +1,106 @@
+{
+    "classes": [
+        {
+            "name": "Infinity Warrior",
+            "description": "A being with limitless potential.",
+            "attributes": {
+                "health": 1000000000,
+                "mana": 1000000000,
+                "strength": 999999,
+                "agility": 999999,
+                "intelligence": 999999
+            },
+            "abilities": [
+                {
+                    "name": "Infinite Slash",
+                    "damage": 100000000,
+                    "mana_cost": 0,
+                    "effect": "stun"
+                }
+            ]
+        },
+        {
+            "name": "Void Mage",
+            "description": "A spellcaster with no defined attributes.",
+            "attributes": {},
+            "abilities": [
+                {
+                    "name": "Void Bolt",
+                    "damage": null,
+                    "mana_cost": null,
+                    "effect": null
+                }
+            ]
+        },
+        {
+            "name": "Negative Rogue",
+            "description": "A rogue with inverted stats.",
+            "attributes": {
+                "health": -100,
+                "mana": -50,
+                "strength": -20,
+                "agility": -15,
+                "intelligence": -10
+            },
+            "abilities": [
+                {
+                    "name": "Reverse Backstab",
+                    "damage": -40,
+                    "mana_cost": -10,
+                    "effect": "heal"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "A class with no name.",
+            "attributes": {
+                "health": 100,
+                "mana": 50,
+                "strength": 10,
+                "agility": 10,
+                "intelligence": 10
+            },
+            "abilities": [
+                {
+                    "name": "",
+                    "damage": 10,
+                    "mana_cost": 5,
+                    "effect": "none"
+                }
+            ]
+        },
+        {
+            "name": "Duplicate Warrior",
+            "description": "First instance of a duplicated class name.",
+            "attributes": {
+                "health": 150,
+                "mana": 50,
+                "strength": 20,
+                "agility": 10,
+                "intelligence": 5
+            },
+            "abilities": []
+        },
+        {
+            "name": "Duplicate Warrior",
+            "description": "Second instance of a duplicated class name.",
+            "attributes": {
+                "health": 100,
+                "mana": 100,
+                "strength": 10,
+                "agility": 10,
+                "intelligence": 20
+            },
+            "abilities": [
+                {
+                    "name": "Power Strike",
+                    "damage": 25,
+                    "mana_cost": 10,
+                    "effect": null
+                }
+            ]
+        }
+    ]
+}
+

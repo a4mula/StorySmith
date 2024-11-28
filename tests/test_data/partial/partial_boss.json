@@ -1,0 +1,43 @@
+{
+    "bosses": [
+        {
+            "name": "Forest Guardian",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 100,
+                    "abilities": []
+                },
+                {
+                    "name": "Left Arm"
+                }
+            ]
+        },
+        {
+            "name": "Ice Wraith",
+            "description": "A spectral being that freezes its enemies.",
+            "zones": [
+                {
+                    "name": "Core",
+                    "health": 150
+                }
+            ]
+        },
+        {
+            "description": "A fiery entity guarding the mountain pass.",
+            "zones": [
+                {
+                    "name": "Flame Core",
+                    "health": 200,
+                    "abilities": [
+                        {
+                            "name": "Fire Blast",
+                            "damage": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+

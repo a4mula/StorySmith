@@ -1,0 +1,89 @@
+{
+    "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "refresh_rate": 144,
+        "aspect_ratio": "16:9",
+        "scaling": "auto"
+    },
+    "audio": {
+        "master_volume": 80,
+        "mute": false,
+        "music_volume": 70,
+        "effects_volume": 85,
+        "voice_volume": 90,
+        "spatial_audio": true,
+        "equalizer": {
+            "bass": 10,
+            "mid": 8,
+            "treble": 7
+        }
+    },
+    "gameplay": {
+        "difficulty": "normal",
+        "autosave": true,
+        "hints_enabled": true,
+        "enemy_ai": "adaptive",
+        "player_starting_inventory": {
+            "health_potions": 3,
+            "mana_potions": 2,
+            "gold": 100
+        },
+        "permadeath": false
+    },
+    "controls": {
+        "keyboard": {
+            "move_up": "W",
+            "move_down": "S",
+            "move_left": "A",
+            "move_right": "D",
+            "primary_action": "Space",
+            "secondary_action": "F",
+            "pause": "Escape",
+            "hotkeys": {
+                "hotkey_1": "1",
+                "hotkey_2": "2",
+                "hotkey_3": "3",
+                "hotkey_4": "4"
+            }
+        },
+        "gamepad": {
+            "move_up": "Thumbstick Up",
+            "move_down": "Thumbstick Down",
+            "move_left": "Thumbstick Left",
+            "move_right": "Thumbstick Right",
+            "primary_action": "A",
+            "secondary_action": "B",
+            "pause": "Start"
+        }
+    },
+    "graphics": {
+        "quality": "ultra",
+        "fullscreen": true,
+        "v_sync": true,
+        "anti_aliasing": "TAA",
+        "shadows": "high",
+        "textures": "ultra",
+        "motion_blur": false,
+        "field_of_view": 90
+    },
+    "debug": {
+        "enabled": false,
+        "log_level": "info",
+        "show_fps": true,
+        "show_collision_boxes": false,
+        "render_pathfinding": false,
+        "enable_god_mode": false
+    },
+    "network": {
+        "multiplayer_enabled": true,
+        "server_region": "NA",
+        "ping_display": true,
+        "voice_chat": {
+            "enabled": true,
+            "volume": 75,
+            "push_to_talk": true
+        }
+    }
+}
+

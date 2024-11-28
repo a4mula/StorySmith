@@ -1,0 +1,53 @@
+{
+    "start_scene": "intro",
+    "scenes": {
+        "intro": {
+            "text": "You find yourself at the edge of a dark forest. What will you do?",
+            "choices": [
+                {
+                    "option": "Enter the forest",
+                    "next_scene": "forest_path"
+                },
+                {
+                    "option": "Turn back",
+                    "next_scene": "village"
+                }
+            ]
+        },
+        "forest_path": {
+            "text": "The forest is dark and full of strange noises. A shadow moves ahead.",
+            "choices": [
+                {
+                    "option": "Investigate the shadow",
+                    "next_scene": "shadow_encounter",
+                    "conditions": {
+                        "required_class": "Warrior",
+                        "required_item": "torch"
+                    }
+                },
+                {
+                    "option": "Run back to the forest edge",
+                    "next_scene": "intro"
+                }
+            ]
+        },
+        "shadow_encounter": {
+            "text": "You face a menacing figure in the darkness.",
+            "choices": [
+                {
+                    "option": "Fight",
+                    "next_scene": "combat_scene"
+                },
+                {
+                    "option": "Run away",
+                    "next_scene": "forest_path"
+                }
+            ],
+            "effects": {
+                "health_change": -20,
+                "item_gain": "shadow_trophy"
+            }
+        }
+    }
+}
+

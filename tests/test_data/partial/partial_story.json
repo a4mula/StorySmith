@@ -1,0 +1,36 @@
+{
+    "start_scene": "intro",
+    "scenes": {
+        "intro": {
+            "text": "You are standing at the edge of a forest. What do you do?",
+            "choices": [
+                {
+                    "option": "Enter the forest"
+                },
+                {
+                    "option": "Go back to the village",
+                    "next_scene": "village"
+                }
+            ]
+        },
+        "forest_path": {
+            "text": "The forest is dark, and you hear noises.",
+            "choices": []
+        },
+        "village": {
+            "text": "The village seems quiet, but something feels off."
+        },
+        "shadow_encounter": {
+            "choices": [
+                {
+                    "option": "Talk to the figure",
+                    "next_scene": "dialogue_scene"
+                },
+                {
+                    "option": "Run away"
+                }
+            ]
+        }
+    }
+}
+

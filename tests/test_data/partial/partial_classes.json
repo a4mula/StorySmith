@@ -1,0 +1,36 @@
+{
+    "classes": [
+        {
+            "name": "Warrior",
+            "attributes": {
+                "health": 150,
+                "strength": 20
+            }
+        },
+        {
+            "name": "Mage",
+            "description": "A spellcaster with high mana and powerful abilities.",
+            "abilities": [
+                {
+                    "name": "Fireball",
+                    "damage": 30
+                }
+            ]
+        },
+        {
+            "description": "A stealthy rogue adept at ambushes.",
+            "attributes": {
+                "health": 100,
+                "agility": 25
+            },
+            "abilities": [
+                {
+                    "name": "Backstab",
+                    "damage": 40,
+                    "mana_cost": 20
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,95 @@
+{
+    "bosses": [
+        {
+            "name": "Forest Guardian",
+            "description": "A massive tree-like creature protecting the forest.",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 100,
+                    "abilities": [
+                        {
+                            "name": "Vine Whip",
+                            "damage": 15,
+                            "cooldown": 3
+                        },
+                        {
+                            "name": "Seed Burst",
+                            "damage": 20,
+                            "cooldown": 5,
+                            "effect": "poison"
+                        }
+                    ]
+                },
+                {
+                    "name": "Left Arm",
+                    "health": 50,
+                    "abilities": [
+                        {
+                            "name": "Branch Slam",
+                            "damage": 10,
+                            "cooldown": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Right Arm",
+                    "health": 50,
+                    "abilities": [
+                        {
+                            "name": "Thorn Shot",
+                            "damage": 12,
+                            "cooldown": 3
+                        }
+                    ]
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Forest Regeneration",
+                    "heal": 20,
+                    "cooldown": 6
+                }
+            ]
+        },
+        {
+            "name": "Ice Wraith",
+            "description": "A spectral being of frost, haunting the frozen tundra.",
+            "zones": [
+                {
+                    "name": "Core",
+                    "health": 150,
+                    "abilities": [
+                        {
+                            "name": "Frost Blast",
+                            "damage": 25,
+                            "cooldown": 4,
+                            "effect": "freeze"
+                        }
+                    ]
+                },
+                {
+                    "name": "Aura",
+                    "health": 0,
+                    "abilities": [
+                        {
+                            "name": "Icy Winds",
+                            "damage": 5,
+                            "cooldown": 1,
+                            "effect": "slow"
+                        }
+                    ]
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Frozen Veil",
+                    "heal": 0,
+                    "cooldown": 10,
+                    "effect": "damage_reduction"
+                }
+            ]
+        }
+    ]
+}
+

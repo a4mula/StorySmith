@@ -1,0 +1,95 @@
+{
+    "bosses": [
+        {
+            "name": "",
+            "description": "This boss has no name.",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 100,
+                    "abilities": [
+                        {
+                            "name": "Confusion Beam",
+                            "damage": 20,
+                            "mana_cost": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Immortal Beast",
+            "description": "A boss with infinite health.",
+            "zones": [
+                {
+                    "name": "Core",
+                    "health": 9999999999,
+                    "abilities": [
+                        {
+                            "name": "Eternal Flame",
+                            "damage": 50,
+                            "cooldown": 1
+                        }
+                    ]
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Regenerate",
+                    "heal": 9999999999,
+                    "cooldown": 0
+                }
+            ]
+        },
+        {
+            "name": "Negative Entity",
+            "description": "A boss with negative stats.",
+            "zones": [
+                {
+                    "name": "Left Claw",
+                    "health": -100,
+                    "abilities": [
+                        {
+                            "name": "Reverse Slash",
+                            "damage": -20,
+                            "cooldown": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Infinite Loop Hydra",
+            "description": "A boss with zones that point back to themselves.",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 200,
+                    "abilities": [
+                        {
+                            "name": "Bite",
+                            "damage": 25,
+                            "cooldown": 1
+                        }
+                    ],
+                    "next_zone": "Head"
+                }
+            ]
+        },
+        {
+            "name": "Massive Boss",
+            "description": "A boss with an overwhelming number of zones.",
+            "zones": [
+                {
+                    "name": "Zone 1",
+                    "health": 100
+                },
+                {
+                    "name": "Zone 1000",
+                    "health": 100
+                }
+            ]
+        }
+    ]
+}
+

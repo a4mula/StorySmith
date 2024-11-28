@@ -1,0 +1,61 @@
+{
+    "resolution": {
+        "width": 1920,
+        "height": 1080,
+        "refresh_rate": 144,
+        "aspect_ratio": "16:9"
+    },
+    "audio": {
+        "volume": 80,
+        "mute": false,
+        "equalizer": {
+            "bass": 10,
+            "treble": 8,
+            "mid": 7
+        },
+        "spatial_audio": true,
+        "voice_chat_volume": 50
+    },
+    "gameplay": {
+        "difficulty": "normal",
+        "autosave": true,
+        "tutorial_enabled": true,
+        "enemy_ai_aggression": "medium",
+        "player_starting_inventory": {
+            "health_potion": 3,
+            "mana_potion": 2
+        }
+    },
+    "controls": {
+        "move_up": "W",
+        "move_down": "S",
+        "move_left": "A",
+        "move_right": "D",
+        "action": "Space",
+        "pause": "Escape",
+        "secondary_action": "F",
+        "camera_toggle": "C",
+        "keybinds": {
+            "hotkey_1": "1",
+            "hotkey_2": "2",
+            "hotkey_3": "3"
+        }
+    },
+    "graphics": {
+        "v_sync": true,
+        "quality": "high",
+        "fullscreen": true,
+        "anti_aliasing": "TAA",
+        "shadows": "ultra",
+        "textures": "high",
+        "motion_blur": false
+    },
+    "debug": {
+        "enabled": false,
+        "log_level": "info",
+        "enable_fps_counter": true,
+        "show_collision_boxes": false,
+        "render_pathing_mesh": true
+    }
+}
+

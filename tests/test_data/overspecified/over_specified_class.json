@@ -1,0 +1,56 @@
+{
+    "classes": [
+        {
+            "name": "Super Warrior",
+            "description": "A heavily armored melee fighter with incredible strength.",
+            "attributes": {
+                "health": 200,
+                "mana": 50,
+                "strength": 30,
+                "agility": 15,
+                "intelligence": 10,
+                "resistance": 50,
+                "critical_rate": 25,
+                "luck": 100
+            },
+            "abilities": [
+                {
+                    "name": "Earth Shatter",
+                    "damage": 40,
+                    "mana_cost": 20,
+                    "effect": "stun",
+                    "range": "melee",
+                    "cooldown": 2,
+                    "cast_time": 1
+                },
+                {
+                    "name": "Battle Cry",
+                    "damage": 0,
+                    "mana_cost": 10,
+                    "effect": "buff",
+                    "duration": 5,
+                    "area_of_effect": "self"
+                }
+            ],
+            "equipment": {
+                "weapon": "Great Sword",
+                "armor": "Plate Mail",
+                "shield": "Tower Shield"
+            },
+            "passives": [
+                {
+                    "name": "Iron Will",
+                    "effect": "resist_stun"
+                }
+            ],
+            "level": 10,
+            "experience": 10000,
+            "faction": "Knights of Valor",
+            "affiliation": {
+                "guild": "Warrior's Brotherhood",
+                "alliance": "Southern Kingdom"
+            }
+        }
+    ]
+}
+

@@ -1,0 +1,76 @@
+{
+    "start_scene": "intro",
+    "scenes": {
+        "intro": {
+            "text": "You find yourself at the edge of a dark forest. What will you do?",
+            "choices": [
+                {
+                    "option": "Enter the forest",
+                    "next_scene": "forest_path"
+                },
+                {
+                    "option": "Turn back",
+                    "next_scene": "village"
+                }
+            ]
+        },
+        "forest_path": {
+            "text": "The forest is dark and full of strange noises. A shadow moves ahead.",
+            "choices": [
+                {
+                    "option": "Investigate the shadow",
+                    "next_scene": "shadow_encounter"
+                },
+                {
+                    "option": "Run back to the forest edge",
+                    "next_scene": "intro"
+                }
+            ]
+        },
+        "village": {
+            "text": "You return to the safety of the village. People are busy with their daily lives.",
+            "choices": [
+                {
+                    "option": "Talk to the village elder",
+                    "next_scene": "elder_dialogue"
+                },
+                {
+                    "option": "Rest at the inn",
+                    "next_scene": "rest_scene"
+                }
+            ]
+        },
+        "shadow_encounter": {
+            "text": "A shadowy figure emerges. It’s a mysterious traveler.",
+            "choices": [
+                {
+                    "option": "Talk to the traveler",
+                    "next_scene": "traveler_dialogue"
+                },
+                {
+                    "option": "Attack the traveler",
+                    "next_scene": "combat"
+                }
+            ]
+        },
+        "elder_dialogue": {
+            "text": "The elder warns you about the dangers of the forest and gives you a talisman.",
+            "choices": [
+                {
+                    "option": "Thank the elder and leave",
+                    "next_scene": "intro"
+                }
+            ]
+        },
+        "rest_scene": {
+            "text": "You rest at the inn and regain your strength. The next morning awaits.",
+            "choices": [
+                {
+                    "option": "Head back to the forest",
+                    "next_scene": "intro"
+                }
+            ]
+        }
+    }
+}
+

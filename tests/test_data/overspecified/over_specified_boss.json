@@ -1,0 +1,88 @@
+{
+    "bosses": [
+        {
+            "name": "Titan of Chaos",
+            "description": "A towering entity of destruction, wielding devastating abilities.",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 500,
+                    "abilities": [
+                        {
+                            "name": "Chaos Beam",
+                            "damage": 100,
+                            "mana_cost": 50,
+                            "effect": "stun",
+                            "range": "long",
+                            "cast_time": 3,
+                            "cooldown": 5,
+                            "status_effect": {
+                                "type": "blind",
+                                "duration": 3
+                            }
+                        }
+                    ],
+                    "resistance": {
+                        "physical": 50,
+                        "magic": 30,
+                        "elemental": 20
+                    }
+                },
+                {
+                    "name": "Left Arm",
+                    "health": 300,
+                    "abilities": [
+                        {
+                            "name": "Crushing Grip",
+                            "damage": 80,
+                            "mana_cost": 30,
+                            "cooldown": 2,
+                            "area_of_effect": "single_target",
+                            "status_effect": {
+                                "type": "immobilize",
+                                "duration": 2
+                            }
+                        }
+                    ],
+                    "defense": {
+                        "armor": 100,
+                        "evasion": 15
+                    }
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Unstable Chaos",
+                    "damage": 150,
+                    "cooldown": 10,
+                    "effect": "knockback",
+                    "area_of_effect": "global",
+                    "special_condition": {
+                        "trigger": "low_health",
+                        "threshold": 20
+                    }
+                }
+            ],
+            "passives": [
+                {
+                    "name": "Regeneration",
+                    "effect": "restore_health",
+                    "value": 10,
+                    "interval": 5
+                }
+            ],
+            "loot_table": {
+                "common_items": ["Health Potion", "Mana Potion"],
+                "rare_items": ["Titan's Fang", "Chaos Core"],
+                "drop_rate": {
+                    "common": 80,
+                    "rare": 20
+                }
+            },
+            "level": 50,
+            "faction": "Lords of the Abyss",
+            "background_story": "The Titan of Chaos was created from the fragments of a shattered dimension."
+        }
+    ]
+}
+

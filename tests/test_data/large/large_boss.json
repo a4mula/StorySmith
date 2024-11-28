@@ -1,0 +1,148 @@
+{
+    "bosses": [
+        {
+            "name": "Forest Guardian",
+            "description": "A massive tree-like creature protecting the ancient forest.",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 300,
+                    "abilities": [
+                        {
+                            "name": "Vine Whip",
+                            "damage": 20,
+                            "cooldown": 3,
+                            "effect": "stun"
+                        }
+                    ]
+                },
+                {
+                    "name": "Left Arm",
+                    "health": 200,
+                    "abilities": [
+                        {
+                            "name": "Branch Slam",
+                            "damage": 15,
+                            "cooldown": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Right Arm",
+                    "health": 200,
+                    "abilities": [
+                        {
+                            "name": "Thorn Shot",
+                            "damage": 10,
+                            "cooldown": 3
+                        }
+                    ]
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Forest Regeneration",
+                    "heal": 50,
+                    "cooldown": 5
+                }
+            ]
+        },
+        {
+            "name": "Titan of the Deep",
+            "description": "A colossal sea creature rising from the depths.",
+            "zones": [
+                {
+                    "name": "Tentacle 1",
+                    "health": 250,
+                    "abilities": [
+                        {
+                            "name": "Tentacle Slam",
+                            "damage": 30,
+                            "cooldown": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Tentacle 2",
+                    "health": 250,
+                    "abilities": [
+                        {
+                            "name": "Crush",
+                            "damage": 25,
+                            "cooldown": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Core",
+                    "health": 500,
+                    "abilities": [
+                        {
+                            "name": "Water Jet",
+                            "damage": 40,
+                            "cooldown": 4
+                        }
+                    ]
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Tidal Wave",
+                    "damage": 50,
+                    "cooldown": 6,
+                    "effect": "knockback"
+                }
+            ]
+        },
+        {
+            "name": "Volcanic Warlord",
+            "description": "A molten giant, harnessing the power of lava.",
+            "zones": [
+                {
+                    "name": "Head",
+                    "health": 300,
+                    "abilities": [
+                        {
+                            "name": "Lava Spit",
+                            "damage": 35,
+                            "cooldown": 4,
+                            "effect": "burn"
+                        }
+                    ]
+                },
+                {
+                    "name": "Chest",
+                    "health": 400,
+                    "abilities": [
+                        {
+                            "name": "Eruption",
+                            "damage": 50,
+                            "cooldown": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "Legs",
+                    "health": 250,
+                    "abilities": [
+                        {
+                            "name": "Stomp",
+                            "damage": 20,
+                            "cooldown": 3,
+                            "effect": "stagger"
+                        }
+                    ]
+                }
+            ],
+            "global_abilities": [
+                {
+                    "name": "Lava Surge",
+                    "damage": 60,
+                    "cooldown": 7,
+                    "effect": "burn"
+                }
+            ]
+        }
+    ]
+}
+

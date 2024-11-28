@@ -1,0 +1,11 @@
+{
+    "start_stage": {
+        "name": "start_stage",
+        "layers": {
+            "background": ["backgrounds/forest.jpg"],
+            "midground": ["props/tree.png", "props/rock.png"],
+            "foreground": ["props/hero.png"]
+        }
+    }
+}
+

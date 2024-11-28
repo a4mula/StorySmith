@@ -1,0 +1,32 @@
+{
+    "resolution": {
+        "width": 0,
+        "height": -1080
+    },
+    "audio": {
+        "volume": 200,
+        "mute": "yes"
+    },
+    "gameplay": {
+        "difficulty": "god_mode",
+        "autosave": "always"
+    },
+    "controls": {
+        "move_up": "INVALID_KEY",
+        "move_down": "S",
+        "move_left": "A",
+        "move_right": "D",
+        "action": "",
+        "pause": null
+    },
+    "graphics": {
+        "v_sync": "enabled",
+        "quality": "extreme",
+        "fullscreen": "full"
+    },
+    "debug": {
+        "enabled": "true",
+        "log_level": "none"
+    }
+}
+
